@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Ví dụ 1 -->
+    <!-- <style>
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 20px 10px;
+        }
+        .child {
+            background-color: orange;
+            border: 2px solid black;
+            font-size: 24px;
+            font-weight: 700;
+            text-align: center;
+            padding: 20px;
+
+        }
+    </style>
+    <div class="parent">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+        <div class="child">6</div>
+        <div class="child">7</div>
+        <div class="child">8</div>
+        <div class="child">9</div>
+    </div> -->
+
+    <!-- Ví dụ 2 -->
+    <!-- <style>
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .child {
+            background-color: orange;
+            border: 2px solid black;
+            font-size: 24px;
+            font-weight: 700;
+            text-align: center;
+            padding: 20px;
+        }
+        .child-1, .child-4 {
+            grid-column: span 2;
+        }
+
+    </style>
+    <div class="parent">
+        <div class="child child-1">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child child-4">4</div>
+    </div> -->
+
+    <!-- Ví dụ 4 -->
+    <!-- <style>
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .child {
+            background-color: orange;
+            border: 2px solid black;
+            font-size: 24px;
+            font-weight: 700;
+            text-align: center;
+            padding: 20px;
+        }
+        .child-1 {
+            grid-row: span 2;
+        }
+
+    </style>
+    <div class="parent">
+        <div class="child child-1">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+    </div> -->
+    
+    <style>
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+
+        .child {
+            background-color: orange;
+            border: 2px solid black;
+            font-size: 24px;
+            font-weight: 700;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .child-4 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+
+        .box {
+            background-color: red;
+            border: 2px solid white;
+            padding: 10px;
+        }
+
+        .box-1 {
+            grid-column: span 2;
+        }
+    </style>
+    <div class="parent">
+        <div class="child child-1">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child child-4">
+            <div class="box box-1">4.1</div>
+            <div class="box">4.2</div>
+            <div class="box">4.3</div>
+        </div>
+    </div>
+
+
+</body>
+</html>

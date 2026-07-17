@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root {
+    --font-1: "Be Vietnam Pro", sans-serif;
+    --font-2: "Lora", serif;
+    --color-1: #333333;
+    --color-2: #e2e2e2;
+    --color-3: #f1f1f1;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Container */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* End Container */
+
+/* Box */
+.box {
+    border-radius: 8px;
+    background-color: var(--color-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--color-1);
+    font-family: var(--font-1);
+}
+/* End Box */
+
+/* Header */
+.header {
+    background-color: white;
+    padding: 20px 0;
+}
+
+.header .inner-wrap {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .inner-logo {
+    width: 200px;
+    height: 60px;
+}
+
+.header .inner-menu {
+    width: 820px;
+    height: 34px;
+}
+
+.header .inner-button {
+    width: 120px;
+    height: 42px;
+}
+
+/* End Header */
+
+/* Section 1 */
+.section-1 {
+    background-color: var(--color-3);
+    padding: 80px 0;
+}
+
+.section-1 .inner-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.section-1 .inner-content, .section-1 .inner-image {
+    height: 520px;
+}
+/* End Section 1 */
+
+/* Section 2 */
+.section-2 {
+    padding: 80px 0;
+}
+
+.section-2 .inner-wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.section-2 .inner-item {
+    height: 420px;
+}
+/* End Section 2 */
+
+/* Title */
+.title {
+    width: 600px;
+    height: 80px;
+    margin: 0 auto 40px;
+    font-family: var(--font-2);
+}
+/* End Title */
+
+/* Section 3 */
+.section-3 {
+    background-color: var(--color-3);
+    padding: 80px 0;
+}
+
+.section-3 .inner-wrap {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+}
+
+.section-3 .inner-item {
+    height: 300px;
+}
+/* End Section 3 */
+
+/* Section 4 */
+.section-4 {
+    padding: 80px 0;
+}
+
+.section-4 .inner-wrap {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.section-4 .inner-item {
+    height: 300px;
+}
+/* End Section 4 */
+
+/* Footer */
+.footer {
+    background-color: #D9D9D9;
+    border-radius: 0px;
+    height: 72px;
+}
+/* End Footer */
